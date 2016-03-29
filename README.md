@@ -8,13 +8,21 @@ To learn about me, see [here](./misc/About.md)
 ## Course Topics ##
 
 * Introduction
+ * Setup VM and Intro to Programing Languages
+ * Tour of Python and Environment
+ * Algorithms & Equations
 * Python Does Data
  * Loading Data from Various Sources
  * Parsing Data
  * Cleaning, Filtering, and Transforming Data
 * Python Does plotting
  * Introduction to Matplotlib
- * More Advanced Examples for Oceanography
+ * Mapping
+ * Oceanographic Models
+* Python in Statistics
+ * Standard Analysis Tools
+ * Informations
+ * Dimensional Reduction for Modern Data
 * Python as a Scientific language
  * Python vs Fortran
  * Optimization Tips & Tricks
@@ -53,6 +61,7 @@ Detailed instructions on the setup and requirements will be available below.
 ## Materials and Data ##
 
 
+---
 
 ## Detailed Instructions ##
 

@@ -15,7 +15,9 @@ June 11 | 10:00am | Loading Data into Python
 
 ## Activities ##
 
-### Code Challenge ###
+### Where in the World is Python ###
+
+### Python on a Boat: GCMs ###
 
 ### Timeit ###
 
