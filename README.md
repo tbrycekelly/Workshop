@@ -34,6 +34,8 @@ June 11 | 10:00am | Loading Data into Python
 --- | 1:30pm | Data Analysis and Parsing
 --- | 3:00pm | Wrap up for Day
 
+_See detailed schedule [here](./misc/Schedule.md)_
+
 ## Setting up the Environment ##
 
 For this workshop, we have a virtual machine (VM) disk that will ensure that all participants will have a unified interface as well as a stream-lined experience.
