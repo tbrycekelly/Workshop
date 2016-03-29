@@ -20,7 +20,7 @@ To learn about me, see [here](./misc/About.md)
  * Optimization Tips & Tricks
  * Cython for Mission Critical Functions
 
-## Schedule (_tentative_) ##
+## Schedule (_example_) ##
 
 Date | Time | Activity
 --- | --- | ---
