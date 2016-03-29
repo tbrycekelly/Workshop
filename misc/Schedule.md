@@ -1,10 +1,25 @@
 # Detailed Schedule #
 
+Date | Time | Activity
+--- | --- | ---
+June 10 | 10:00am | Introduction to VM environment.
+--- | 12:00am | Break for Lunch
+--- | 1:00pm | Working with Python and Modules
+--- | 3:00pm | Wrap up for Day
+June 11 | 10:00am | Loading Data into Python
+--- | 11:30am | Introduction to Python plotting
+--- | 12:30pm | Break for Lunch
+--- | 1:30pm | Data Analysis and Parsing
+--- | 2:30pm | Activity: _Add Some Python to your Research_
+--- | 3:00pm | Wrap up for Day
+
 ## Activities ##
 
+### Code Challenge ###
 
+### Timeit ###
 
-### Add Some Python to the Research ###
+### Add Some Python to your Research ###
 
 _10-15 minutes_.
 

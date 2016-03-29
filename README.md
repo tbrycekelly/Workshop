@@ -9,16 +9,16 @@ To learn about me, see [here](./misc/About.md)
 
 * Introduction
 * Python Does Data
-** Loading Data from Various Sources
-** Parsing Data
-** Cleaning, Filtering, and Transforming Data
+ * Loading Data from Various Sources
+ * Parsing Data
+ * Cleaning, Filtering, and Transforming Data
 * Python Does plotting
-** Introduction to Matplotlib
-** More Advanced Examples for Oceanography
+ * Introduction to Matplotlib
+ * More Advanced Examples for Oceanography
 * Python as a Scientific language
-** Python vs Fortran
-** Cython for Mission Critical Functions
-** Optimization Tips & Tricks
+ * Python vs Fortran
+ * Optimization Tips & Tricks
+ * Cython for Mission Critical Functions
 
 ## Schedule (_tentative_) ##
 
@@ -74,13 +74,40 @@ Link to Instructions for:
 
 ### Mac OSX ###
 
+The first thing you will need to setup is python. Python may be installed alrady on your system, to find out type the following into a terminal Window.
+
+    python3 -V
+
+If this command returns a version number (e.g. 3.4.2) then python is available to your system, if it does not then you will need to install it. For Mac users I highly recommend Homebrew for installing and maintaining software. Homebrew is a package manager similar to those that are ubiquitous in the linux world. Basically with it you can install the necessary packages with the following command:
+
+    brew install python3 python3-pip git
+
+Since most Mac users will not have Homebrew (or an equivalent), we will have to install the required software the old fashioned way (or head [here](http://brew.sh/) to install Homebrew). Head to the [python downloads](https://www.python.org/downloads/) and install the latest version 3 (e.g. 3.4.3 as of this writing).
+
+Once you have a working python installation (check by using the _python3 -V_ command), you will need to use pip (the python package manager) to install the appropriate modules.
+
+    pip3 install jupyter ipython3 nbconvert notebook matplotlib
+
+This will install jupyter (our user interface for this workshop) as well as some helper packages (nbconvert and matplotlib).
+
+Once all of these have been installed, we will need to download the files used in this workshop. For this we'll use git. Git is a popular version management tool used in programing. It can keep track of changes and allow many people to work on a project simultaneously, but for our purposes it is nothing more than a convenient downloader.
+
+Git can be downloaded from their homepage [here](https://git-scm.com/downloads). Once installed open up a new terminal window and check that it's working:
+
+    git
+
+This should return a list of options and commands, if not then either git didn't get installed or it is not in your _PATH_ (the directory listing where the computer looks for programs called _git_). Some Google searching should reveal the answer pretty quickly. Once setup, run the following.
+
+    git clone https://github.com/tbrycekelly/Workshop DIR
+
+Here _DIR_ is simply the location you want to save your copy of the workshop files. For example, _~/Desktop_ would place it on your desktop.
 
 
 ### Linux ###
 
-The first thing you will need to setup is python. Python comes pre-installed on many distros, but to make sure type the following into a terminal Windows.
+The first thing you will need to setup is python. Python comes pre-installed on many distros, but to make sure type the following into a terminal Window.
 
-    which(python)
+    which(python3)
 
 If it returns a path, then python is installed. If it does not then you will need to install it. For ubuntu-like distos type
 
